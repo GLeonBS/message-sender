@@ -11,9 +11,6 @@ const nextConfig = {
   // See: https://nx.dev/recipes/next/next-config-setup
   nx: {},
   // Configure port for development
-  env: {
-    PORT: '3001',
-  },
 };
 
 const plugins = [

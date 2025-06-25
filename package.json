@@ -6,7 +6,7 @@
     "dev": "concurrently \"npm run dev:api\" \"npm run dev:web\"",
     "dev:full": "concurrently --names \"API,WEB\" --prefix-colors \"blue,green\" \"npm run dev:api\" \"npm run dev:web\"",
     "dev:api": "nx serve api",
-    "dev:web": "PORT=3001 nx dev web",
+    "dev:web": "nx dev web",
     "dev:all": "nx run-many --target=serve --all",
     "build": "nx run-many --target=build --all",
     "test": "nx run-many --target=test --all",
